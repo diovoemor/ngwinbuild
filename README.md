@@ -2,7 +2,7 @@
 My windows build with nmake for NGHTTP2 
 
     Requires:
-    perl (in your system path) 
+    perl (in your system path), 
     Visual Studio or a Windows SDK with the compilers installed.
 
 
