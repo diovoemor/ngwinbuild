@@ -291,7 +291,7 @@ libsgen:
   $(LB) $(LBFLAGS) /out:$(LIBD) $(OBJDIR)\d_*.obj
 
 resource:
-!IF 
+
   $(RC) $(RCFLAGS) /fo$(OBJDIR)\r_$(NAME).res $(OBJDIR)\$(NAME).rc
   $(RC) $(RCFLAGS) /D_DEBUG/fo$(OBJDIR)\d_$(NAME).res $(OBJDIR)\$(NAME).rc
 
